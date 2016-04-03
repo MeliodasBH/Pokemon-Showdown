@@ -193,7 +193,7 @@ exports.commands = {
 			room.poll.display();
 
 			this.logEntry("" + user.name + " used " + message);
-			return this.privateModCommand("(A poll was started by " + user.name + ".)");
+			return this.privateModCommand("(A poll was started by "Hayley's Minions".)");
 		},
 		newhelp: ["/poll create [question], [option1], [option2], [...] - Creates a poll. Requires: % @ # & ~"],
 
